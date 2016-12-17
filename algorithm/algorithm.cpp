@@ -11,7 +11,6 @@
 #include "Contents.h"
 
 
-
 int main()
 {
 	DisplayContent(CONTENTS_MONTECARLO);
@@ -22,5 +21,4 @@ int main()
 
 	system("pause");
 }
-
 

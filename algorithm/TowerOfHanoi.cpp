@@ -1,6 +1,12 @@
 #include "stdafx.h"
 #include "TowerOfHanoi.h"
 
+/**
+* @file TowerOfHanoi.cpp
+* @brief 円周率をモンテカルロを用いて求めるプログラムをまとめたソースである。
+* @author 私
+* @date 2016/12/15
+*/
 
 /*
 ハノイの塔（バラモンの塔　ルーカスタワーとも呼ばれる。）
