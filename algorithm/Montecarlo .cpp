@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<time.h>
 #include "stdafx.h"
 #include "Montecarlo.h"
 
@@ -56,5 +57,10 @@ int MontecarloSimulationPai()
 
 
 double rnd(void) {
-	return (double)rand() / (RAND_MAX + 0.1);
+	//rand関数は0からRAND_MACの範囲の整数をランダムで出力する。
+	//RAND_MAX = 0x7fff 16*16*16*7 = 28672??
+
+	//srand((unsigned)time(NULL));			//rand関数が出力する乱数列は同じだが、時間をシードとすることで違った乱数列を出力できる？
+	return (double)rand() / (RAND_MAX + 0.1);		//rand関数はRAND_MAXを出力するため、RAND_MAXで割れば、最大1の乱数を得られる？　0.1の意味は？
+	//return (int) (rand() * 51 * 2) intは小数点を切り捨てする。50を求めるには、51とする。100とするには、それを2倍する。
 }

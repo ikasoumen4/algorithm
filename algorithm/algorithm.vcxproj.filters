@@ -24,14 +24,17 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Contents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Montecarlo.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TowerOfHanoi.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Contents.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="Ex1_2_Histogram.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +51,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Contents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex1_2_Histogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

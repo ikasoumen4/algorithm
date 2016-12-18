@@ -5,11 +5,10 @@
 #include "stdafx.h"
 #include<stdio.h>
 #include<stdlib.h>
-
+#include "Contents.h"
 #include "Montecarlo.h"
 #include "TowerOfHanoi.h"
-#include "Contents.h"
-
+#include "Ex1_2_Histogram.h"
 
 int main()
 {
@@ -18,6 +17,9 @@ int main()
 	
 	DisplayContent(CONTENTS_TOWER_OF_HANOI);
 	TowerOfHanoiDo(3);
+
+	DisplayContent(CONTENTS_HISTOGRAM);
+	Histogram();
 
 	system("pause");
 }

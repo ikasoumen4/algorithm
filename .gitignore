@@ -1,2 +1,10 @@
 *.opendb
-DEBUG
+# いらない
+Debug
+# いらない
+Release
+#？　キャッシュのためいらない
+ipch
+
+#Solution User Options (suo) 一時ファイルのためいらない
+.vs
