@@ -15,7 +15,7 @@ TODO:きれいなインクルードの定義方法がわからん
 
 #define CONTENTS_TOWER_OF_HANOI "ハノイの塔"
 #define CONTENTS_MONTECARLO "モンテカルロ"		//clear
-#define CONTENTS_HISTOGRAM "ヒストグラム"
+#define CONTENTS_HISTOGRAM "ヒストグラム"		//clear
 #define CONTENTS_LEXICOGRAPHICAL "辞書式順に順列生成"
 #define CONTENTS_COMPLEMENT "補間"
 #define CONTENTS_EIGHT_QUEEN "エイトクイーン"
